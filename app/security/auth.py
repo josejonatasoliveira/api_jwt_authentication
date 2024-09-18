@@ -12,11 +12,6 @@ from app.security.dependencies import verify_password
 
 auth_router = APIRouter()
 
-fake_users_db = {
-    "user": {"username": "user", "role": "user", "password": "L0XuwPOdS5U"},
-    "admin": {"username": "admin", "role": "admin", "password": "JKSipm0YH"},
-}
-
 ACCESS_TOKEN_EXPIRE_MINUTES = 300
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
