@@ -31,13 +31,13 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 Clone o repositório
 
 ```bash
-git clone
+git clone https://github.com/josejonatasoliveira/api_jwt_authentication
 ```
 
 Entre no projeto executando o seguinte comando no terminal.
 
 ```bash
-cd fastapi-jwt-auth
+cd api_jwt_authentication
 ```
 
 Após isso crie um ambiente virtual para realizar as instalações das dependencias.
